@@ -21,4 +21,7 @@ public class UserController {
     public void m1(){
 
     }
+    
+    public void m2(){
+    }
 }
