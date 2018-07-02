@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="child_controller:war exploded">
+    <output-path>$PROJECT_DIR$/child_controller/target/child_controller</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="child_controller" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="child_service-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="child_service" />
+          </element>
+          <element id="archive" name="child_dao-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="child_dao" />
+          </element>
+          <element id="archive" name="child_entity-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="child_entity" />
+          </element>
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.41" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/child_controller/target/child_controller/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="child_controller/web/Web" />
+    </root>
+  </artifact>
+</component>
