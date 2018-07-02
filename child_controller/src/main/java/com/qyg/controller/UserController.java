@@ -17,4 +17,8 @@ public class UserController {
         System.out.println(userService.findById(user.getId()));
 
     }
+
+    public void m1(){
+
+    }
 }
