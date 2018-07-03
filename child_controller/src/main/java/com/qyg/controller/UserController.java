@@ -25,5 +25,7 @@ public class UserController {
     public void m2(){
     }
 
-    public  void  m3(){}
+    public  void  m3(){
+        System.out.println("m3");
+    }
 }
